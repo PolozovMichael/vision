@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us Page</title>
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  <link rel="icon" type="image/x-icon" href="favicon.JPG">
+</head>
+  <body>
+
+    <div id="overlay">
+      <form onsubmit="event.preventDefault(); validateForm()">
+        <h1>Contact Us</h1>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Full Name">
+        <small class="error"></small>
+
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" placeholder="E-mail">
+        <small class="error"></small>
+
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Your Message" rows="6"></textarea>
+        <small class="error"></small>
+
+        <div class="center">
+          <input type="submit" value="Send Message">
+          <p id="success"></p>
+        </div>
+
+      </form>
+    </div>
+     
+    <script src="contact.js"></script>
+  </body>
+</html>

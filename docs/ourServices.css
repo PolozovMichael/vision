@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  border:none !important;
+  outline: none !important;
+  text-decoration: none !important;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: all .2s linear;
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+section{
+	padding:2rem 9%;	
+}
+
+ .services{
+	background-image: url(1.jpg);
+	background-size: cover;
+	
+}
+
+.services .section-header h1{
+	color: white;	
+}
+
+.services .section-header p{
+	color: white;
+	text-transform: uppercase;
+	font-weight:900;
+}
+.services .single-service{
+	transition: .5s;
+	text-align: center;
+	height: 370px;
+	
+}
+.services .single-service .icon{
+	background-color: #fff;
+	border-radius: 75%;
+	box-shadow: 0 2px 20px rgba(0,0,0,0.4); 
+	color: #000;
+	display: inline-block;
+	height: 90px;
+	width: 90px;
+	margin-bottom: 35px;
+}
+.services .single-service .icon i{
+	display: block;
+	font-size: 32px;
+	line-height: 90px;
+}
+.services .single-service .content{
+	height: 32px;
+	transition: 1s;
+}
+.services .single-service .content h3{
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 35px;
+	margin: 0;
+	text-transform: uppercase;	
+}
+.services .single-service .content p{
+	font-weight:400;
+	color:white;
+	line-height: 27px;
+}
+.services .single-service:hover{
+	margin: auto;
+	border-radius: 50px;
+	background-image: linear-gradient(to bottom, #141414 0%, #505050 100%);
+    box-shadow: 0px 0px 20px 20px grey;
+	padding: 15px 50px;
+	height: 450px;
+	width: 350px;
+}
+.appointment{
+	display:flex;
+	background-color: white;
+}
+.appointment h2{
+	color: black;
+	text-align: center;
+}
+.appointment .row{
+    width:100%;	
+}
+.appointment .row form{
+    
+	background:black;
+	border:.2rem solid black;
+	box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+	text-align:center;
+	padding:2rem;
+	border-radius: .5rem;
+}
+.appointment .row form .box{
+    width: 75%;
+	margin: .7rem 0;
+	border-radius: .5rem;
+	border: 2rem solid white;
+	font-size: 1.6rem;
+	color: white;
+	padding: 1rem;
+}
+.appointment .row form .btn{
+	padding: 1rem 3rem;
+}
+.btn{
+	display: inline-block;
+	margin-top: 1rem;
+	padding: .5rem;
+	padding-left: 1rem;
+	border: 2rem solid white;
+	border-radius: .5rem;
+}
+.btn span{
+	padding: .7rem 1rem;
+	border-radius: .5rem;
+	background: black;
+	color: white;
+	margin-left: .5rem;
+}
+.btn:hover{
+	background: black;
+	color:white;
+}
