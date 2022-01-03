@@ -12,11 +12,11 @@
     font-weight: 500;
 }
 
-#logo, #home, #contact, #service {
+#logo, #home, #contact, #services, #about_us {
     transition: all 0.1s ease-in-out;
 }
 
-#logo:hover, #home:hover, #contact:hover, #service:hover {
+#logo:hover, #home:hover, #contact:hover, #services:hover, #about_us:hover {
     color: rgb(136, 136, 136);
 }
 
